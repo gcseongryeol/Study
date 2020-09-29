@@ -1,0 +1,36 @@
+package projectEx;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class FindPath extends JFrame {
+	
+	JTextField startField = new JTextField(10);
+	JTextField endField = new JTextField(10);
+	JButton search = new JButton();
+	
+	FindPath() {
+		setTitle("실시간 도로상황");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container c = getContentPane();
+		c.setLayout(new BorderLayout());
+		c.add(startField);
+		c.add(endField);
+		
+		setSize(500, 300);
+		setVisible(true);
+		
+	}
+	
+	public static void main(String[] args) {
+		new FindPath();
+	}
+	
+	
+	
+	
+	
+	
+
+}

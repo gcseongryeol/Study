@@ -1,0 +1,21 @@
+package Test;
+
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
+
+public class LoadPath {
+	public static void main(String[] args) {
+		String filePath = "../coffee.png";
+		File file = new File(filePath);
+		
+		Desktop desk = Desktop.getDesktop();
+		try {
+			desk.open(file);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

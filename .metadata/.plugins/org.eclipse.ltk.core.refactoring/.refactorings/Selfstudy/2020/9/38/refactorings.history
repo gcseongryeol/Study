@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;backjoon.If&apos; to &apos;_1330&apos;&#x0A;- Original project: &apos;Selfstudy&apos;&#x0A;- Original element: &apos;backjoon.If&apos;&#x0A;- Renamed element: &apos;backjoon._1330&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;If&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;backjoon{If.java[If" matchStrategy="1" name="_1330" qualified="false" references="true" similarDeclarations="false" stamp="1600523801997" textual="false" version="1.0"/>
+</session>
