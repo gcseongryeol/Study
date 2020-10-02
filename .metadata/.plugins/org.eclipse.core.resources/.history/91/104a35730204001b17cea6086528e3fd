@@ -1,0 +1,31 @@
+package question_for;
+
+import java.util.Scanner;
+
+public class _10871 {
+	
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		int X = scan.nextInt();
+		int N = scan.nextInt();
+		
+		int[] array1 = new int[2];
+//		int[] array2 = new int[num];
+		
+		array1[0] = X;
+		array1[1] = N;
+		
+		System.out.print(X + " " + N);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
